@@ -15,7 +15,7 @@ class _Tab2ScreenState extends State<Tab2Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('WinFocusMatrix • Tasks')),
+      appBar: AppBar(title: const Text('Win • Tasks')),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
