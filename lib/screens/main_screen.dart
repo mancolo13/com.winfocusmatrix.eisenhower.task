@@ -16,10 +16,10 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = const [
+    Tab4Screen(),
+    Tab3Screen(),
     Tab1Screen(),
     Tab2Screen(),
-    Tab3Screen(),
-    Tab4Screen(),
   ];
 
   @override
@@ -52,7 +52,6 @@ class _MainScreenState extends State<MainScreen> {
           selectedIcon: const Icon(Icons.archive, color: AppTheme.primaryColor),
           label: 'Archived',
         ),
-
         ],
       ),
     );
